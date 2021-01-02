@@ -1,5 +1,5 @@
 # Bookstore App
-## [Initial Setup](myNotes/ch03-README.md)
+## [Initial Setup](my_notes/ch03-README.md)
 - Initializing the Django app
 - Docker initial config
 - PostgreSQL initial config
