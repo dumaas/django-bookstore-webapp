@@ -5,3 +5,8 @@
 - PostgreSQL initial config
 - Create a CustomUser Model
 - Add unit tests
+
+## [Pages App](my_notes/ch04-README.md)
+- Initializing Pages app with templates, urls, and views
+- Testing homepage templates, html, resolve
+- Simplify testing with setUp method
