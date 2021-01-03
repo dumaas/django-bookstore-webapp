@@ -10,3 +10,6 @@
 - Initializing Pages app with templates, urls, and views
 - Testing homepage templates, html, resolve
 - Simplify testing with setUp method
+
+## [User Registration](my_notes/ch05-README.md)
+-
