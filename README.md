@@ -13,6 +13,6 @@
 
 ## [User Registration](my_notes/ch05-README.md)
 - Add log-in and log-out functionality
-- Learn how to search for magic in the [Django source code](https://github.com/django/django)
+- Learn how to search for magic in the <a href="https://github.com/django/django" target="_blank">Django source code</a>
 - Add sign up functionality (URLs, views, templates, etc)
 - Test new signup status code, templates used, etc.
