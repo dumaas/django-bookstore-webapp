@@ -16,3 +16,11 @@
 - Learn how to search for magic in the [Django source code](https://github.com/django/django)
 - Add sign up functionality (URLs, views, templates, etc)
 - Test new signup status code, templates used, etc.
+
+## [Static Assets](my_notes/ch06-README.md)
+- Create the staticfiles app
+- Add custom CSS, images, and JavaScript
+- Add Bootstrap
+- Create the about page
+- Add [django-crispy-forms](https://github.com/django-crispy-forms/django-crispy-forms)
+- Add about page tests
