@@ -1,0 +1,29 @@
+{% extends '_base.html' %}
+{% load crispy_forms_tags %}
+{% load socialaccount %}
+{% load static %}
+
+{% block title %}Log In{% endblock title %}
+
+{% block content %}
+<h2>Log In</h2>
+<form method="post">
+  {% csrf_token %}
+  {{ form|crispy }}
+  <button class="btn btn-success" type="submit">Log In</button>
+</form>
+
+<!-- social authentication -->
+<div id="social-auth">
+  <!-- github -->
+  <a href="{% provider_login_url 'github' %}">
+    <img class="social-auth-icons" alt="Github" src="{% static 'images/github.jpg' %}">
+  </a>
+  <!-- google -->
+  <a href="{% provider_login_url 'google' %}">
+    <img class="social-auth-icons" alt="Google" src="{% static 'images/google.jpg' %}">
+  </a>
+</div>
+
+
+{% endblock content %}

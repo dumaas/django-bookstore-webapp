@@ -1,3 +1,4 @@
+# Not being used b/c of django-allauth
 from django.urls import path
 
 from .views import SignupPageView

@@ -6,3 +6,10 @@ h1 {
   height: 300px;
   width: auto;
 }
+
+.social-auth-icons {
+  display: inline-block;
+  padding-top: 5px;
+  height: 50px;
+  width: auto;
+}

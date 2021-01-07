@@ -24,3 +24,8 @@
 - Create the about page
 - Add [django-crispy-forms](https://github.com/django-crispy-forms/django-crispy-forms)
 - Add about page tests
+
+## [Advanced User Registration](my_notes/ch07-README.md)
+- Setup [django-allauth](https://github.com/pennersr/django-allauth)
+- Test new signup features
+- Add social auth (Github and Google)
