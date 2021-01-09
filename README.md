@@ -34,3 +34,7 @@
 - Why I don't use .env files
 - Add SECRET_KEY, DEBUG to docker-compose.yml
 - Info on database environment variables
+
+## [Email](my_notes/ch09-README.md)
+- Custom confirmation emails
+- Edit email confirmation page
