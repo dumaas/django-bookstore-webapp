@@ -29,3 +29,8 @@
 - Setup [django-allauth](https://github.com/pennersr/django-allauth)
 - Test new signup features
 - Add social auth (Github and Google)
+
+## [Environment Variables](my_notes/ch08-README.md)
+- Why I don't use .env files
+- Add SECRET_KEY, DEBUG to docker-compose.yml
+- Info on database environment variables
