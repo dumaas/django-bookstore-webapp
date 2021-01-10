@@ -144,7 +144,6 @@ EMAIL_BACKEND = 'sendgrid_backend.SendgridBackend'
 SENDGRID_API_KEY = os.environ.get('SENDGRID_API_KEY')
 SENDGRID_SANDBOX_MODE_IN_DEBUG = False
 SENDGRID_ECHO_TO_STDOUT = False
-# ACCOUNT_ADAPTER = 'Pages.adapter.SendgridEmailAdapter'
 
 # django-crispy-forms
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
@@ -166,4 +165,6 @@ ACCOUNT_USERNAME_REQUIRED = False
 ACCOUNT_AUTHENTICATION_METHOD = 'email'
 ACCOUNT_EMAIL_REQUIRED = True
 ACCOUNT_UNIQUE_EMAIL = True
+
+# Must match sendgrid authorized email to work properly
 DEFAULT_FROM_EMAIL = 'chris@bytesizepython.com'
