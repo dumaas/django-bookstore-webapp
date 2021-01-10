@@ -38,3 +38,11 @@
 ## [Email](my_notes/ch09-README.md)
 - Custom confirmation emails
 - Edit email confirmation page
+- Add SendGrid API integration
+
+## [Books App](my_notes/ch10-README.md)
+- Create models, urls, views, templates for Books app
+- Setup individual book pages
+- Switch from primary keys to UUIDs
+- Add books app to navbar
+- Add testing for books app
