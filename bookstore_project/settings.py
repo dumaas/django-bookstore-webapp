@@ -139,6 +139,13 @@ STATICFILES_FINDERS = [
 # Custom User Model
 AUTH_USER_MODEL = 'users.CustomUser'
 
+# Sendgrid API Config
+EMAIL_BACKEND = 'sendgrid_backend.SendgridBackend'
+SENDGRID_API_KEY = os.environ.get('SENDGRID_API_KEY')
+SENDGRID_SANDBOX_MODE_IN_DEBUG = False
+SENDGRID_ECHO_TO_STDOUT = False
+# ACCOUNT_ADAPTER = 'Pages.adapter.SendgridEmailAdapter'
+
 # django-crispy-forms
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
@@ -153,11 +160,10 @@ AUTHENTICATION_BACKENDS = (
     'allauth.account.auth_backends.AuthenticationBackend',
 )
 
-EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 ACCOUNT_SESSION_REMEMBER = True
 ACCOUNT_SIGNUP_PASSWORD_ENTER_TWICE = False
 ACCOUNT_USERNAME_REQUIRED = False
 ACCOUNT_AUTHENTICATION_METHOD = 'email'
 ACCOUNT_EMAIL_REQUIRED = True
 ACCOUNT_UNIQUE_EMAIL = True
-DEFAULT_FROM_EMAIL = 'admin@djangobookstore.com'
+DEFAULT_FROM_EMAIL = 'chris@bytesizepython.com'
