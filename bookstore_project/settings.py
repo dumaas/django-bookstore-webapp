@@ -173,3 +173,6 @@ ACCOUNT_UNIQUE_EMAIL = True
 # Must match sendgrid authorized email to work properly
 DEFAULT_FROM_EMAIL = 'chris@bytesizepython.com'
 
+# Stripe
+STRIPE_TEST_PUBLISHABLE_KEY = os.environ.get('STRIPE_TEST_PUBLISHABLE_KEY')
+STRIPE_TEST_SECRET_KEY = os.environ.get('STRIPE_TEST_SECRET_KEY')

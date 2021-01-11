@@ -61,3 +61,9 @@
 - Restrict books page to logged-in users
 - Add custom permissions for viewing individual book pages
 - Add testing for new permissions
+
+## [Orders with Stripe](my_notes/ch14-README.md)
+- Creating the search results page
+- Basic filtering
+- Using Q objects
+- Creating the search form

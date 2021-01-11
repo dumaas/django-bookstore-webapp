@@ -5,7 +5,18 @@
 
 {% block content %}
 <h1>Homepage</h1>
-<img class="bookcover" src="{% static 'images/djangoforprofessionals.jpg' %}">
+<form
+  class="form-inline mt-2 mt-md-0"
+  action="{% url 'search_results' %}"
+  method="get">
+  <input
+    name="q"
+    class="form-control mr-sm-2"
+    type="text"
+    placeholder="Search"
+    aria-label="Search">
+</form>
+<!-- <img class="bookcover" src="{% static 'images/djangoforprofessionals.jpg' %}">
 {% if user.is_authenticated %}
   Hi {{ user.email }}!
   <p><a href="{% url 'account_logout' %}">Log Out</a></p>
@@ -13,7 +24,7 @@
   <p>You are not logged in</p>
   <a href="{% url 'account_login' %}">Log In</a>
   <a href="{% url 'account_signup' %}">Sign Up</a>
-{% endif %}
+{% endif %} -->
 <p>
   <a href="https://github.com/dumaas/books-app" target="_blank">Click here</a> to see the source code for this project!
 </p>
