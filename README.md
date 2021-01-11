@@ -74,3 +74,10 @@
 - Implement basic indexing
 - Other useful django extensions
 - Compressing front-end assets
+
+## [Security](my_notes/ch16-README.md)
+- The importance of keeping Django up to date
+- Deployment checklist
+- Local vs production settings
+- Web security basics
+- Changing default admin URL
