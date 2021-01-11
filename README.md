@@ -56,3 +56,8 @@
 ## [File / Image Upload](my_notes/ch12-README.md)
 - Using [Pillow](https://python-pillow.org/)
 - New Models, Admin, Template setup
+
+## [Permissions](my_notes/ch13-README.md)
+- Restrict books page to logged-in users
+- Add custom permissions for viewing individual book pages
+- Add testing for new permissions
