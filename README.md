@@ -62,8 +62,11 @@
 - Add custom permissions for viewing individual book pages
 - Add testing for new permissions
 
-## [Orders with Stripe](my_notes/ch14-README.md)
+## [Search](my_notes/ch14-README.md)
 - Creating the search results page
 - Basic filtering
 - Using Q objects
 - Creating the search form
+
+## [](my_notes/ch15-README.md)
+- aa
