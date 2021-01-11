@@ -46,3 +46,9 @@
 - Switch from primary keys to UUIDs
 - Add books app to navbar
 - Add testing for books app
+
+## [Reviews App](my_notes/ch11-README.md)
+- Add one-to-many relationship for reviews model
+- Integrate reviews in admin model
+- Update book template to display reviews
+- Test review functionality
