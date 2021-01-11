@@ -68,5 +68,9 @@
 - Using Q objects
 - Creating the search form
 
-## [](my_notes/ch15-README.md)
-- aa
+## [Performance](my_notes/ch15-README.md)
+- Using [django-debug-toolbar](https://github.com/jazzband/django-debug-toolbar) to analyze pages
+- Site-wide caching
+- Implement basic indexing
+- Other useful django extensions
+- Compressing front-end assets
