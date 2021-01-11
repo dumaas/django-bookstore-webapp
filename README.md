@@ -52,3 +52,7 @@
 - Integrate reviews in admin model
 - Update book template to display reviews
 - Test review functionality
+
+## [File / Image Upload](my_notes/ch12-README.md)
+- Using [Pillow](https://python-pillow.org/)
+- New Models, Admin, Template setup

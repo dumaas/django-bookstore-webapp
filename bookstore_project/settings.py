@@ -136,6 +136,9 @@ STATICFILES_FINDERS = [
     "django.contrib.staticfiles.finders.FileSystemFinder",
     "django.contrib.staticfiles.finders.AppDirectoriesFinder",
 ]
+# Pillow media config
+MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 # Custom User Model
 AUTH_USER_MODEL = 'users.CustomUser'
@@ -169,3 +172,4 @@ ACCOUNT_UNIQUE_EMAIL = True
 
 # Must match sendgrid authorized email to work properly
 DEFAULT_FROM_EMAIL = 'chris@bytesizepython.com'
+

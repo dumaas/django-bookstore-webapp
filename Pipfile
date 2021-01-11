@@ -9,6 +9,7 @@ psycopg2-binary = "*"
 django-crispy-forms = "*"
 django-allauth = "*"
 django-sendgrid-v5 = "*"
+pillow = "*"
 
 [dev-packages]
 
