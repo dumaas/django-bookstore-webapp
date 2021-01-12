@@ -11,6 +11,9 @@ django-allauth = "*"
 django-sendgrid-v5 = "*"
 pillow = "*"
 django-debug-toolbar = "*"
+whitenoise = "*"
+gunicorn = "*"
+dj-database-url = "*"
 
 [dev-packages]
 

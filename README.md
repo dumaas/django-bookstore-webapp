@@ -81,3 +81,6 @@
 - Local vs production settings
 - Web security basics
 - Changing default admin URL
+
+## [Deployment](my_notes/ch17-README.md)
+- Heroku!
