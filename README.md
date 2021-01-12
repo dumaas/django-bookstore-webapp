@@ -1,4 +1,6 @@
 # Bookstore App
+[Click here to view the finished product!](https://django-bookstore-webapp.herokuapp.com/)
+
 ## [Initial Setup](my_notes/ch03-README.md)
 - Initializing the Django app
 - Docker initial config
@@ -83,4 +85,8 @@
 - Changing default admin URL
 
 ## [Deployment](my_notes/ch17-README.md)
-- Heroku!
+- How to choose a hosting provider (PaaS vs IaaS)
+- Adding WhiteNoise, Gunicorn, dj-database-url
+- Heroku & Docker config
+- Creating heroku.yml
+- Deploying to Heroku!
